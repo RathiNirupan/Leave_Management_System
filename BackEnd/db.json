@@ -1,0 +1,91 @@
+{
+  "employees": [
+    {
+      "id": "EMP_Dy4kP",
+      "employeeId": "EMP_Dy4kP",
+      "nic": "92312212V",
+      "firstName": "Jerobert",
+      "lastName": "zachariah",
+      "dob": "2015-01-06",
+      "doj": "2024-09-03"
+    },
+    {
+      "id": "EMP_4SK8Q",
+      "employeeId": "EMP_4SK8Q",
+      "nic": "723451278V",
+      "firstName": "Nelson",
+      "lastName": "Mandella",
+      "dob": "1972-12-05",
+      "doj": "2024-09-01"
+    },
+    {
+      "id": "EMP_6Vlrl",
+      "employeeId": "EMP_6Vlrl",
+      "nic": "200562300136",
+      "firstName": "Ratheepa",
+      "lastName": "Nirupan",
+      "dob": "2005-05-02",
+      "doj": "2024-10-29"
+    },
+    {
+      "id": "EMP_RbqBH",
+      "employeeId": "EMP_RbqBH",
+      "nic": "200562300136",
+      "firstName": "Ratheepa",
+      "lastName": "Nirupan",
+      "dob": "2005-02-05",
+      "doj": "2024-10-10"
+    }
+  ],
+  "users": [
+    {
+      "id": "EMP_Dy4kP",
+      "employeeId": "EMP_Dy4kP",
+      "username": "EMP_Dy4kP",
+      "password": "pwd123",
+      "role": "Employee"
+    },
+    {
+      "id": "EMP_4SK8Q",
+      "employeeId": "EMP_4SK8Q",
+      "username": "EMP_4SK8Q",
+      "password": "pwd123",
+      "role": "Employee"
+    },
+    {
+      "id": "EMP_6Vlrl",
+      "employeeId": "EMP_6Vlrl",
+      "username": "EMP_6Vlrl",
+      "password": "pwd123",
+      "role": "Employee"
+    },
+    {
+      "id": "EMP_RbqBH",
+      "employeeId": "EMP_RbqBH",
+      "username": "EMP_RbqBH",
+      "password": "pwd123",
+      "role": "Employee"
+    }
+  ],
+  "leaveRequests": [
+    {
+      "id": "e491",
+      "reason": "trip",
+      "dateFrom": "2024-09-12",
+      "numOfDays": "2",
+      "applicationDate": "2024-09-06",
+      "status": "Approved",
+      "processedDate": "2024-09-05"
+    },
+    {
+      "id": "a86b",
+      "reason": "party",
+      "dateFrom": "2024-09-17",
+      "numOfDays": "1",
+      "applicationDate": "2024-09-06",
+      "status": "Rejected",
+      "processedDate": "2024-09-05",
+      "rejectionReason": "cant allow"
+    }
+  ]
+}
