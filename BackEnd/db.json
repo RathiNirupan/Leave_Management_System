@@ -17,15 +17,6 @@
       "lastName": "Mithu",
       "dob": "2003-10-13",
       "doj": "2024-11-12"
-    },
-    {
-      "id": "EMP_PSkmX",
-      "employeeId": "EMP_PSkmX",
-      "nic": "200562300136",
-      "firstName": "Rathi",
-      "lastName": "Nirupan",
-      "dob": "2005-05-02",
-      "doj": "2024-11-18"
     }
   ],
   "users": [
@@ -40,13 +31,6 @@
       "id": "EMP_VZsRs",
       "employeeId": "EMP_VZsRs",
       "username": "EMP_VZsRs",
-      "password": "pwd123",
-      "role": "Employee"
-    },
-    {
-      "id": "EMP_PSkmX",
-      "employeeId": "EMP_PSkmX",
-      "username": "EMP_PSkmX",
       "password": "pwd123",
       "role": "Employee"
     }
@@ -96,6 +80,15 @@
       "reason": "wedding",
       "dateFrom": "2024-11-21",
       "numOfDays": "04",
+      "applicationDate": "2024-11-07",
+      "status": "Pending"
+    },
+    {
+      "id": "e106",
+      "employeeId": "EMP_MwNUs",
+      "reason": "Wedding",
+      "dateFrom": "2024-11-22",
+      "numOfDays": "05",
       "applicationDate": "2024-11-07",
       "status": "Pending"
     }
