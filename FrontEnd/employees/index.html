@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Employee Management</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+
 <body>
     <div class="container">
         <div class="flex-container">
             <h1>Employee Management</h1>
+            <!-- Add Employee Button -->
             <button id="createEmployeeBtn">Add Employee</button>
         </div>
-        <input type="text" id="searchInput" placeholder="search by NIC,First Name,Last Name..." style="margin-top: 10px;">
+        <!-- Search Input -->
+        <input type="text" id="searchInput" placeholder="Search by NIC, First Name, Last
+Name..." style="margin-top: 10px;">
+        <!-- Employee Table -->
         <table id="employeeTable">
             <thead>
                 <tr>
@@ -20,69 +28,64 @@
                     <th>NIC</th>
                     <th>First Name</th>
                     <th>Last Name</th>
-                    <th>Date Of Birth</th>
-                    <th>Date Of Joining</th>
+                    <th>Date of Birth</th>
+                    <th>Date of Joining</th>
                     <th>Actions</th>
                 </tr>
             </thead>
             <tbody id="employeeTableBody"></tbody>
         </table>
         <br>
+        <!-- Toast Notification -->
+        <div id="toast"></div>
+        <!-- Employee Modal -->
         <div id="employeeModal" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <h2 id="modalTitle">Add Employee</h2>
                 <form id="employeeForm">
                     <input type="hidden" id="empId" name="empId">
-
                     <div>
                         <label for="nic">NIC Number:</label>
-                        <input type="text" id="nic" required>
+                        <input type="text" id="nic" name="nic" required>
                     </div>
-
                     <div>
                         <label for="firstName">First Name:</label>
                         <input type="text" id="firstName" name="firstName" required>
                     </div>
-
                     <div>
                         <label for="lastName">Last Name:</label>
                         <input type="text" id="lastName" name="lastName" required>
                     </div>
-
                     <div>
-                        <label for="dob">Date Of Birth:</label>
+                        <label for="dob">Date of Birth:</label>
                         <input type="date" id="dob" name="dob" required>
                     </div>
-
                     <div>
-                        <label for="doj">Date Of Joining</label>
+                        <label for="doj">Date of Joining:</label>
                         <input type="date" id="doj" name="doj" required>
-                         </div>
-                         
-                    <button type="submit" id="saveButton">save</button>
+                    </div>
+                    <button type="submit" id="saveButton">Save</button>
                 </form>
             </div>
         </div>
-
-        <div id="crendentialsModal" class="modal">
+        <!-- Credentials Modal -->
+        <div id="credentialsModal" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <h2>Edit Credentials</h2>
-                <form id="crendentialsForm">
-                    <input type="hidden" id="crendentialsEmpId" name="empId">
+                <form id="credentialsForm">
+                    <input type="hidden" id="credentialsEmpId" name="empId">
                     <div>
                         <label for="username">Username:</label>
                         <input type="text" id="username" name="username" disabled required>
                     </div>
-
                     <div>
                         <label for="password">Password:</label>
                         <input type="text" id="password" name="password" required>
                     </div>
-
                     <div>
-                        <label for="userrole">Role</label>
+                        <label for="userrole">Role:</label>
                         <select id="userrole" name="userrole">
                             <option value="Employee">Employee</option>
                             <option value="Manager">Manager</option>
@@ -95,6 +98,8 @@
             </div>
         </div>
     </div>
-    <script src="script.js"></script> 
+    <script src="./script.js"></script>
 </body>
+
+
 </html>
