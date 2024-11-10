@@ -28,11 +28,11 @@
       "id": "EMP_T1qau"
     },
     {
-      "id": "EMP_VZsRs",
-      "employeeId": "EMP_VZsRs",
       "username": "EMP_VZsRs",
       "password": "pwd123",
-      "role": "Employee"
+      "role": "Employee",
+      "employeeId": "EMP_VZsRs",
+      "id": "EMP_VZsRs"
     }
   ],
   "leaveRequests": [
@@ -72,7 +72,8 @@
       "dateFrom": "2024-11-22",
       "numOfDays": "03",
       "applicationDate": "2024-11-07",
-      "status": "Pending"
+      "status": "Approved",
+      "processedDate": "2024-11-10"
     },
     {
       "id": "cf2a",
@@ -90,6 +91,15 @@
       "dateFrom": "2024-11-22",
       "numOfDays": "05",
       "applicationDate": "2024-11-07",
+      "status": "Pending"
+    },
+    {
+      "id": "d246",
+      "employeeId": "EMP_T1qau",
+      "reason": "hospital",
+      "dateFrom": "2024-11-15",
+      "numOfDays": "05",
+      "applicationDate": "2024-11-02",
       "status": "Pending"
     }
   ]

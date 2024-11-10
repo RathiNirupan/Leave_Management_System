@@ -6,27 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Company Navbar</title>
     <link rel="stylesheet" href="../static/styles.css">
-    {{style}}
+ 
 </head>
 <body>
-    <nav class="navbar">
+    <style>
+        h1{
+         text-align: center;
+         font-size: 42px;
+         padding: 20%;
+         font-weight: bold;
+         color: aliceblue;
+         
+        } 
+ 
+        body{
+         background-color: rgb(0, 0, 0);
+        }
+     </style>
+      <nav class="navbar">
         <div class="navbar-left">
-            <a href="#" class="menu-item">UnicomTic</a>
+            <a href="X:\GIT CLONE\Leave_Management_System\frontend\views\index.html" class="menu-item">UnicomTic</a>
         </div>
         <div class="navbar-right">
-            <a href="#" class="menu-item">Employee</a>
+            <a href="X:\GIT CLONE\Leave_Management_System\frontend\views\Employees\index.html" class="menu-item">Employee</a>
             <div class="dropdown">
                 <button class="dropbtn">Leave Management</button>
                 <div class="dropdown-content">
-                    <a href="#">Apply Leave</a>
-                    <a href="#">Manage Leave</a>
+                    <!-- <a href="#">Apply Leave</a>
+                    <a href="#">Manage Leave</a> -->
+                    <a href="/frontend/views/LeaveRequest/LeaveRequest.html">Apply Leave</a>
+                    <a href="/frontend/views/LeaveRequest/ManagerLeaveManagement.html">Manage Leave</a>
+                   
                 </div>
             </div>
         </div>
     </nav>
+    <h1>Leave Management System</h1>
+   
     <main>
-        {{}}
+      
     </main>
-       
+
 </body>
 </html>
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> -->
+    
+<!-- </head>
+<body >
+    
+</body>
+</html> -->
