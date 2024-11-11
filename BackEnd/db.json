@@ -17,6 +17,15 @@
       "lastName": "Mithu",
       "dob": "2003-10-13",
       "doj": "2024-11-12"
+    },
+    {
+      "id": "EMP_7Bvfo",
+      "employeeId": "EMP_7Bvfo",
+      "nic": "45769098986",
+      "firstName": "Ram",
+      "lastName": "kumar",
+      "dob": "2024-11-27",
+      "doj": "2024-11-06"
     }
   ],
   "users": [
@@ -33,6 +42,13 @@
       "role": "Employee",
       "employeeId": "EMP_VZsRs",
       "id": "EMP_VZsRs"
+    },
+    {
+      "id": "EMP_7Bvfo",
+      "employeeId": "EMP_7Bvfo",
+      "username": "EMP_7Bvfo",
+      "password": "pwd123",
+      "role": "Employee"
     }
   ],
   "leaveRequests": [
@@ -82,7 +98,8 @@
       "dateFrom": "2024-11-21",
       "numOfDays": "04",
       "applicationDate": "2024-11-07",
-      "status": "Pending"
+      "status": "Approved",
+      "processedDate": "2024-11-11"
     },
     {
       "id": "e106",
@@ -100,6 +117,15 @@
       "dateFrom": "2024-11-15",
       "numOfDays": "05",
       "applicationDate": "2024-11-02",
+      "status": "Pending"
+    },
+    {
+      "id": "469a",
+      "employeeId": "EMP_T1qau",
+      "reason": "loosemotion",
+      "dateFrom": "2024-11-12",
+      "numOfDays": "02",
+      "applicationDate": "2024-11-06",
       "status": "Pending"
     }
   ]
