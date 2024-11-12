@@ -9,12 +9,10 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
 
 
-    // Display welcome message
     const welcomeMessage = document.getElementById('welcomeMessage');
     welcomeMessage.textContent = `Welcome, ${loggedInUser.firstName} ${loggedInUser.lastName}`;
 
 
-    // Logout button functionality
     const logoutButton = document.getElementById('logoutButton');
     logoutButton.addEventListener('click', function () {
         localStorage.removeItem('loggedInUser');
@@ -147,13 +145,10 @@ document.addEventListener('DOMContentLoaded', async function () {
     });
 
 
-    // Close modal
     document.querySelector('.close').addEventListener('click', function () {
         rejectModal.style.display = 'none';
     });
 
-
-    // Load initial leave requests
     loadLeaveRequests();
 });
 

@@ -9,6 +9,11 @@ document.addEventListener('DOMContentLoaded', async function() {
         return;
     }
 
+    if(  loggedInUser.role=="Admin"){
+        document.getElementById("nav").style.display = "block";
+
+    }
+   
 
     // Display welcome message
     const welcomeMessage = document.getElementById('welcomeMessage');
